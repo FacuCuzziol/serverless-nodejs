@@ -9,6 +9,9 @@ phases:
       - npm install
   build:
     commands:
+      - npm build
+  deploy:
+    commands:
       - sls deploy -s dev
 artifacts:
   files:
