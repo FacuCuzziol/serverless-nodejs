@@ -6,7 +6,7 @@ provider:
   stage: dev
 
 functions:
-  getMsg:
+  api:
     handler: handler.api
     events:
       - http: GET /
